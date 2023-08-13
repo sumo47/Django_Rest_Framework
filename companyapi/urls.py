@@ -21,5 +21,5 @@ from .views import home_page
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', home_page),
-    path('api/v1/', include('api.urls'))
+    path('api/v1/', include('api.urls')) # http://localhost:8000/api/v1/companies/
 ]
